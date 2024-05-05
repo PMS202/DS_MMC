@@ -5,7 +5,7 @@ CREATE TABLE Department (
     DepartmentName      VARCHAR(30)
 );
 
-CREATE TABLE Position_(
+CREATE TABLE 'Position' (
     PositionID          INT AUTO_INCREMENT PRIMARY KEY,
     PositionName        ENUM("Dev","Test","Scrum Master","PM") 
 );
@@ -20,7 +20,7 @@ CREATE TABLE Account (
     CreateDate          DATE
 );
 
-CREATE TABLE Group_(
+CREATE TABLE 'Group'(
     GroupID             INT AUTO_INCREMENT PRIMARY KEY,
     GroupName           VARCHAR(50),
     CreatorID           VARCHAR(50),
